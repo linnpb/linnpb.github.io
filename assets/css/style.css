@@ -4,18 +4,21 @@ body {
 
 
 a {
-  color: rgb(236, 118, 183);
+  color: black;
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(2, 2, 2);
+  color: #be7373;
 }
 
 h1, h2, h3, h4, h5, h6, .font-heading {
   font-family: "Raleway", sans-serif;
 }
 
+.title {
+  text-align: center;
+}
 h2, h3 {
   letter-spacing: 2px;
 }
@@ -29,7 +32,7 @@ h2, h3 {
 }
 
 mark {
-  background-color:#ecc1d7;
+  background-color:#be7373;
 }
 
 .emoji {
@@ -190,11 +193,14 @@ mark {
 
 .readmore {
   display: inline-block;
-  background-color: #ecc1d7;
+  background-color: #ffffff;
+  border: 2px solid black;
+  border-color: #000;
   padding: 15px 20px;
   font-size: 15px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: 700;
+  border-radius: 5px;
 }
 
 .readmore:active, .readmore:focus, .readmore:hover {
@@ -202,9 +208,9 @@ mark {
 }
 
 .readmore:hover {
-  color: #ecc1d7;
+  color: #ffffff;
   text-decoration: none;
-  background: white;
+  background: rgb(0, 0, 0);
 }
 
 /*--------------------------------------------------------------
@@ -267,7 +273,7 @@ mark {
 }
 
 .custom-navbar .navbar-brand:hover {
-  color: #ecc1d7;
+  color: #be7373;
 }
 
 /*--------------------------------------------------------------
@@ -280,5 +286,6 @@ mark {
 .footer a {
   color: #000;
 }
+
 
 
